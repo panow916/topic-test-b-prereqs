@@ -1,3 +1,8 @@
-# [Assessment Name]
+# Topic Test B - Prereqs
 
-[link to document repo](#)
+The classes in this project will be necessary for your Topic Test B.
+You will need to complete the following before the Practice and Real tests:
+
+1. implement the remove method in the LinkedList class. (DO THIS FIRST)
+2. implement the ListBackedQueue class. It's like 5 lines of code.
+ 

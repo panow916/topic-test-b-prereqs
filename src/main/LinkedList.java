@@ -73,6 +73,7 @@ public class LinkedList<T> implements SimpleList<T> {
 
   @Override
   public T remove(int index) {
+    // TODO
     return null;
   }
 
