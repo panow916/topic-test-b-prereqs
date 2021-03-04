@@ -73,8 +73,25 @@ public class LinkedList<T> implements SimpleList<T> {
 
   @Override
   public T remove(int index) {
-    // TODO
-    return null;
+    if(outOfAccessBounds(index)){
+       throw new NoSuchElementException():
+    } else if (index == 0) {
+      T removed = head.data;
+      head = head.next;
+      size--;
+      return removed;
+    }
+    else {
+      Node<T> current = head;
+      for (int i = 0; i < index - 1; i++){
+        current = current.next;
+      }
+      T removed = current.next.data;
+      Node<T>tempNode = current.next.next;
+      current.next = TempNode;
+      size--; 
+    return removed;
+  }
   }
 
   @Override
